@@ -29,16 +29,25 @@ int main(int argc, char** argv)
 		model = new Model("media/african_head.obj");
 
 	TGAImage image(width, height, TGAImage::RGB);
+	Vec3f light_dir(1, 0.5f, -1); // define light_dir
+
 	for (int i = 0; i < model->nfaces(); i++) 
 	{
 		std::vector<int> face = model->face(i);
 		std::vector<Vec2i> lines;
+		std::vector<Vec3f> world_coords;
+
 		for (int j = 0; j < 3; j++) 
 		{
-			Vec3f v0 = model->vert(face[j]);
-			lines.push_back(Vec2i((v0.x + 1.0f) * width / 2., (v0.y + 1.0f) * height / 2.0f));
+			Vec3f v = model->vert(face[j]);
+			lines.push_back(Vec2i((v.x + 1.0f) * width / 2., (v.y + 1.0f) * height / 2.0f));
+			world_coords.push_back(v);
 		}
-		drawTriangle(lines[0], lines[1], lines[2], image, TGAColor(std::rand() % 256, std::rand() % 256, std::rand() % 256,255));
+		Vec3f n = (world_coords[2] - world_coords[0]) ^ (world_coords[1] - world_coords[0]);
+		n.normalize();
+		float intensity = n * light_dir;
+		if (intensity>0 )
+			drawTriangle(lines[0], lines[1], lines[2], image, TGAColor(intensity * 255, intensity * 255, intensity * 255, 255));
 	}
 
 	Vec2i t0{ 10,10 };
@@ -46,7 +55,7 @@ int main(int argc, char** argv)
 	Vec2i t2{ 60,10 };
 	drawTriangle(t0,t1, t2, image, red);
 	image.flip_vertically(); // i want to have the origin at the left bottom corner of the image
-	image.write_tga_file("media/output3.tga");
+	image.write_tga_file("media/output4.tga");
 	delete model;
 	return 0;
 }
@@ -60,6 +69,7 @@ void drawTriangle(Vec2i t0, Vec2i t1, Vec2i t2, TGAImage& image, TGAColor color)
 	if (t0.y > t1.y) std::swap(t0, t1);
 
 	// draw bottom to top
+	// todo(Metin): Use barycentric coordinates and bounding box in the future 
 	const int total_height = t2.y - t0.y;
 	for (int i = 0; i < total_height; i++) 
 	{

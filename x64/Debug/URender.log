@@ -1,6 +1,6 @@
 ﻿  main.cpp
 C:\Dev\Study\URender\main.cpp(24,22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Dev\Study\URender\main.cpp(39,77): warning C4244: 'argument': conversion from 't' to 't', possible loss of data
+C:\Dev\Study\URender\main.cpp(43,75): warning C4244: 'argument': conversion from 't' to 't', possible loss of data
           with
           [
               t=float
@@ -9,23 +9,22 @@ C:\Dev\Study\URender\main.cpp(39,77): warning C4244: 'argument': conversion from
           [
               t=int
           ]
-C:\Dev\Study\URender\main.cpp(39,48): warning C4244: 'argument': conversion from 'double' to 't', possible loss of data
+C:\Dev\Study\URender\main.cpp(43,47): warning C4244: 'argument': conversion from 'double' to 't', possible loss of data
           with
           [
               t=int
           ]
-C:\Dev\Study\URender\main.cpp(109,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Dev\Study\URender\main.cpp(110,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Dev\Study\URender\main.cpp(120,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Dev\Study\URender\main.cpp(142,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Dev\Study\URender\main.cpp(50,107): warning C4244: 'argument': conversion from 'float' to 'unsigned char', possible loss of data
+C:\Dev\Study\URender\main.cpp(50,90): warning C4244: 'argument': conversion from 'float' to 'unsigned char', possible loss of data
+C:\Dev\Study\URender\main.cpp(50,73): warning C4244: 'argument': conversion from 'float' to 'unsigned char', possible loss of data
 C:\Dev\Study\URender\geometry.h(19,78): warning C4244: 'argument': conversion from 'float' to 't', possible loss of data
           with
           [
               t=int
           ]
 C:\Dev\Study\URender\geometry.h(19): message : while compiling class template member function 'Vec2<int> Vec2<int>::operator *(float) const'
-C:\Dev\Study\URender\main.cpp(93): message : see reference to function template instantiation 'Vec2<int> Vec2<int>::operator *(float) const' being compiled
-C:\Dev\Study\URender\main.cpp(39): message : see reference to class template instantiation 'Vec2<int>' being compiled
+C:\Dev\Study\URender\main.cpp(80): message : see reference to function template instantiation 'Vec2<int> Vec2<int>::operator *(float) const' being compiled
+C:\Dev\Study\URender\main.cpp(43): message : see reference to class template instantiation 'Vec2<int>' being compiled
 C:\Dev\Study\URender\geometry.h(19,71): warning C4244: 'argument': conversion from 'float' to 't', possible loss of data
           with
           [
