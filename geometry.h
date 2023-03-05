@@ -20,6 +20,7 @@ template <class t> struct Vec2 {
 	template <class > friend std::ostream& operator<<(std::ostream& s, Vec2<t>& v);
 };
 
+
 template <class t> struct Vec3 {
 	union {
 		struct { t x, y, z; };

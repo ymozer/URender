@@ -1,0 +1,117 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/Study/URender/main.cpp"
+                },
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 27,
+                  "endLine": 137,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "line2",
+                  "decoratedName": "?line2@@YAXHHHHAEAVTGAImage@@UTGAColor@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/Study/URender/main.cpp"
+                },
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 27,
+                  "endLine": 159,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "line3",
+                  "decoratedName": "?line3@@YAXHHHHAEAVTGAImage@@UTGAColor@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31631.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Dev/Study/URender/main.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a793c6a6fb17f62ec924d07de4e0ab61df4d3b580ed50de69fa321a1c263e770"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/study/urender/tgaimage.h"
+          },
+          "hashes": {
+            "sha-256": "bdcc50fcbea90ff272aecb57c1decc0cd76a084710e8a6811f627bad3dee66d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/study/urender/model.h"
+          },
+          "hashes": {
+            "sha-256": "6d775e3b9a6f5d34fab665da49c47091ca4b853db9ad4e558239f16694848bd6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/study/urender/geometry.h"
+          },
+          "hashes": {
+            "sha-256": "17771d7774d5e89a860aee8c1676cddfc1b9092673a5e71d91316ddd2c7f16ba"
+          }
+        }
+      ]
+    }
+  ]
+}

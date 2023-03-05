@@ -1,0 +1,323 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/Study/URender/tgaimage.cpp"
+                },
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 26,
+                  "endLine": 176,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TGAImage::write_tga_file",
+                  "decoratedName": "?write_tga_file@TGAImage@@QEAA_NPEBD_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/Study/URender/tgaimage.cpp"
+                },
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 26,
+                  "endLine": 176,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TGAImage::write_tga_file",
+                  "decoratedName": "?write_tga_file@TGAImage@@QEAA_NPEBD_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/Study/URender/tgaimage.cpp"
+                },
+                "region": {
+                  "startLine": 259,
+                  "startColumn": 26,
+                  "endLine": 259,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TGAImage::get",
+                  "decoratedName": "?get@TGAImage@@QEAA?AUTGAColor@@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/Study/URender/tgaimage.cpp"
+                },
+                "region": {
+                  "startLine": 259,
+                  "startColumn": 26,
+                  "endLine": 259,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TGAImage::get",
+                  "decoratedName": "?get@TGAImage@@QEAA?AUTGAColor@@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/Study/URender/tgaimage.cpp"
+                },
+                "region": {
+                  "startLine": 266,
+                  "startColumn": 17,
+                  "endLine": 266,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TGAImage::set",
+                  "decoratedName": "?set@TGAImage@@QEAA_NHHUTGAColor@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/Study/URender/tgaimage.cpp"
+                },
+                "region": {
+                  "startLine": 266,
+                  "startColumn": 17,
+                  "endLine": 266,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TGAImage::set",
+                  "decoratedName": "?set@TGAImage@@QEAA_NHHUTGAColor@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/Study/URender/tgaimage.cpp"
+                },
+                "region": {
+                  "startLine": 317,
+                  "startColumn": 25,
+                  "endLine": 317,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TGAImage::clear",
+                  "decoratedName": "?clear@TGAImage@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/Study/URender/tgaimage.cpp"
+                },
+                "region": {
+                  "startLine": 317,
+                  "startColumn": 25,
+                  "endLine": 317,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TGAImage::clear",
+                  "decoratedName": "?clear@TGAImage@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/Study/URender/tgaimage.cpp"
+                },
+                "region": {
+                  "startLine": 322,
+                  "startColumn": 51,
+                  "endLine": 322,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TGAImage::scale",
+                  "decoratedName": "?scale@TGAImage@@QEAA_NHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Dev/Study/URender/tgaimage.cpp"
+                },
+                "region": {
+                  "startLine": 322,
+                  "startColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TGAImage::scale",
+                  "decoratedName": "?scale@TGAImage@@QEAA_NHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31631.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Dev/Study/URender/tgaimage.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ceb6758362662d34a2a0b65ac0d6a4e61fee65dde04ad5d0fd311cf99ae85ce0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/study/urender/tgaimage.h"
+          },
+          "hashes": {
+            "sha-256": "bdcc50fcbea90ff272aecb57c1decc0cd76a084710e8a6811f627bad3dee66d5"
+          }
+        }
+      ]
+    }
+  ]
+}
