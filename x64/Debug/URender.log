@@ -11,26 +11,24 @@ C:\Dev\Cpp-Study\URender\main.cpp(55,35): warning C4244: 'bağımsız değişken
           [
               T=float
           ]
-C:\Dev\Cpp-Study\URender\main.cpp(71,33): warning C4244: 'bağımsız değişken': 'T' - 'int' dönüşümü; veri kaybı olabilir
+C:\Dev\Cpp-Study\URender\main.cpp(72,33): warning C4244: 'bağımsız değişken': 'T' - 'int' dönüşümü; veri kaybı olabilir
           with
           [
               T=float
           ]
-C:\Dev\Cpp-Study\URender\main.cpp(71,28): warning C4244: 'bağımsız değişken': 'T' - 'int' dönüşümü; veri kaybı olabilir
+C:\Dev\Cpp-Study\URender\main.cpp(72,28): warning C4244: 'bağımsız değişken': 'T' - 'int' dönüşümü; veri kaybı olabilir
           with
           [
               T=float
           ]
-C:\Dev\Cpp-Study\URender\main.cpp(78,56): warning C4244: 'bağımsız değişken': 'int' - 'T' dönüşümü; veri kaybı olabilir
+C:\Dev\Cpp-Study\URender\main.cpp(79,56): warning C4244: 'bağımsız değişken': 'int' - 'T' dönüşümü; veri kaybı olabilir
           with
           [
               T=float
           ]
-C:\Dev\Cpp-Study\URender\main.cpp(78,21): warning C4244: 'bağımsız değişken': 'int' - 'T' dönüşümü; veri kaybı olabilir
+C:\Dev\Cpp-Study\URender\main.cpp(79,21): warning C4244: 'bağımsız değişken': 'int' - 'T' dönüşümü; veri kaybı olabilir
           with
           [
               T=float
           ]
-  model.cpp
-  Kod Üretiliyor...
   URender.vcxproj -> C:\Dev\Cpp-Study\URender\x64\Debug\URender.exe
