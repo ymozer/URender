@@ -58,6 +58,7 @@ void triangle(Vec3f* pts, float* zbuffer, TGAImage& image, TGAColor color) {
             bboxmin[j] = std::max(0.f, std::min(bboxmin[j], pts[i][j]));
             bboxmax[j] = std::min(clamp[j], std::max(bboxmax[j], pts[i][j]));
         }
+
     }
     Vec3f P;
     for (P.x = bboxmin.x; P.x <= bboxmax.x; P.x++) {
